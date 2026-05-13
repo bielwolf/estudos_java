@@ -1,4 +1,4 @@
-package src.Classe;
+package Classe;
 
 public class Musica {
     String titulo;

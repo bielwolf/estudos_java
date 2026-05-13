@@ -1,4 +1,4 @@
-package src.Inicio;
+package Inicio;
 //Fins de estudos, nao eh um codigo funcional
 
 

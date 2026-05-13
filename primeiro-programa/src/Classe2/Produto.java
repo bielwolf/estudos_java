@@ -1,4 +1,4 @@
-package src.Classe2;
+package Classe2;
 
 public class Produto {
     private String nome;
