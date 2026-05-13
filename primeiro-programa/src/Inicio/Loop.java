@@ -1,23 +1,18 @@
+package src.Inicio;
 import java.util.Scanner;
 
-public class OutroLoop {
+public class Loop {
     public static void main(String[] args) {
         Scanner leitura = new Scanner(System.in);
         double media = 0, nota = 0;
-        int totalDeNotas = 0;
 
-        while (nota != -1) {
+        for (int i = 0; i < 3; i++) {
             System.out.println("Digite sua avaliação");
             nota = leitura.nextDouble();
+            media += nota;
+        }
 
-            if (nota != -1) {
-                media += nota;
-                totalDeNotas++;
-            }
-        } 
-
-        System.out.println("Média: " + media/totalDeNotas);
+        System.out.println("Média: " + media/3);
         leitura.close();
     }
 }
-    
